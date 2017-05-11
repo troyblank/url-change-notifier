@@ -1,0 +1,19 @@
+{
+    "name": "URLChangeNotifier",
+    "version": "0.0.2",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no text specified\" && exit 1"
+    },
+    "dependencies": {
+        "grunt": "~0.4.1",
+        "jquery": "2.1.1",
+        "mkdirp": "0.3.5",
+        "nodemailer": "0.6.0",
+        "diff": "1.0.8",
+        "matchdep": "~0.1.1",
+        "grunt-ssh": "~0.11.1"
+    },
+    "author": "Troy Blank",
+    "license": "BSD"
+}

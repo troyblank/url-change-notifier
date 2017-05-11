@@ -1,0 +1,24 @@
+# NODE #
+#########
+node_modules
+npm-debug.log
+
+# SASS #
+########
+.sass-cache
+*.css.map
+
+# OS GENERATED FILES #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+data
+
+credentials/config.json
+credentials/id_rsa

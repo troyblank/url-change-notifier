@@ -1,0 +1,44 @@
+{
+    "pagesToWatch": [{
+        "name": "Test File",
+        "protocol": "https",
+        "host": "dl.dropboxusercontent.com",
+        "path": "/u/2175191/url-change-notifier/test.html",
+        "type": "content-change",
+        "cropPointStart": "<section id=\"content\">",
+        "cropPointStop": "</section>",
+        "exclude": ["Exclude me[\\s\\S]*?</div>", "PoweredBy[\\s\\S]*?</TD>"]
+    }, {
+        "name": "Waiver Wire Schedule",
+        "host": "wr.maxsolutions.com",
+        "path": "/files/Weblink/clients/IndependenceEventsCenter/TeamSchedules/TS_C%20Lea_1973_W.Wire.htm",
+        "type": "content-change",
+        "cropPointStart": "<table class=TableBody1>",
+        "cropPointStop": "</TABLE>",
+        "exclude": ["RowTeamPts[\\s\\S]*?</TD>", "PoweredBy[\\s\\S]*?</TD>"]
+    }, {
+        "name": "Fighting Leprechauns Schedule",
+        "host": "www.quickscores.com",
+        "path": "/Orgs/PrintSchedule.php?OrgDir=12oz&LeagueID=664418&TeamID=5233040",
+        "type": "content-change",
+        "cropPointStart": "Regular Season Schedule &amp; Results",
+        "cropPointStop": "Spacer row with top border",
+        "exclude": ["align=\"center\"[\\s\\S]*?</td>"]
+    }, {
+        "name": "Angry Beavers Schedule",
+        "host": "www.kcicecenter.com",
+        "path": "/page/show/1249189-angry-beavers?subseason=165001",
+        "type": "content-change",
+        "cropPointStart": "Angry Beavers Calendar",
+        "cropPointStop": "Recent Angry Beavers News",
+        "exclude": ["extendedOptions[\\s\\S]*?</div>"]
+    }, {
+        "name": "Yetis Schedule",
+        "host": "www.quickscores.com",
+        "path": "/Orgs/PrintSchedule.php?OrgDir=12oz&LeagueID=664413&TeamID=5240232",
+        "type": "content-change",
+        "cropPointStart": "Regular Season Schedule &amp; Results",
+        "cropPointStop": "Spacer row with top border",
+        "exclude": ["align=\"center\"[\\s\\S]*?</td>"]
+    }]
+}
